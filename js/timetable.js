@@ -1,4 +1,3 @@
-// 1.0 = 1 hour, 0.01 = 1 minute
 let start = 480, hour = 40, pause = 15, lastpause = 10, lunch = 30, totalHours = 8
 
 function time_convert(num) { 
