@@ -1,9 +1,9 @@
 let start = 480, hour = 40, pause = 15, lastpause = 10, lunch = 30, totalHours = 8
 
 function time_convert(num) { 
-  var hours = Math.floor(num / 60);  
-  var minutes = num % 60;
-  return `${hours}:${minutes == 0 ? '00' : minutes}`;         
+	var hours = Math.floor(num / 60);  
+	var minutes = num % 60;
+	return `${hours}:${minutes == 0 ? '00' : minutes}`;         
 }
 
 let ttable = document.createElement('table');
