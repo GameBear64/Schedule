@@ -16,7 +16,7 @@ let tr = document.createElement('tr');
 
 for (let i = -1; i < Object.keys(schedule).length; i++) {
   let th = document.createElement('th');
-  th.innerText = i == -1 ? ' ' : Object.keys(schedule)[i];
+  th.innerText = i == -1 ? ' / ' : Object.keys(schedule)[i];
   tr.appendChild(th);
 }
 thead.appendChild(tr);
