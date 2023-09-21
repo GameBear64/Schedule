@@ -1,10 +1,8 @@
 # Schedule
->I use this for school since its easier and I can look at it from wherever I want
+>I use this for school since it is easier and I can look at it from wherever I want
 
-You feed it your schedule in the form of an object in **schedule.js**  
-You feed it your timetable in the form of values in **timetable.js**
+Just edit the `data.json` file and you are ready to go!
+---
 
-### And you are good to go!
-____
-To do: 
-- Move everything into json eventually
+![image](https://github.com/GameBear64/Schedule/assets/33098072/56703cba-89af-4d1a-9cf3-16c2c79bb679)
+
