@@ -1,88 +1,55 @@
 body {
-    background-color: #ffffff;
-    margin: auto;
-    font-family: "Roboto", sans-serif;
-    left: 0;
-    position: absolute;
-    text-align: center;
-    top: 5%;
-    width: 90%;
-    padding-left: 5%;
-}
-
-h1 {
-    font-size: 40px;
-}
-
-caption {
-    height: 60px;
-    font-size: 30px;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 table {
-    border-collapse: collapse;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 td {
-    text-align: center;
-    padding: 8px;
-    font-size: 25px;
-    border-left: 3px solid;
-    border-right: 3px solid;
+  text-align: center;
+  padding: 8px;
+  font-size: 25px;
+  border-left: 3px solid;
+  border-right: 3px solid;
 }
 
 th {
-    padding: 8px;
-    font-size: 30px;
-    border-left: 3px solid;
-    border-right: 3px solid;
+  padding: 8px;
+  font-size: 30px;
+  border-left: 3px solid;
+  border-right: 3px solid;
 }
 
 thead th {
-    background-color: #8c8c8c;
+  background-color: #8c8c8c;
 }
 
 tr:nth-child(odd) {
-    background-color: #ffb366;
+  background-color: #ffb366;
 }
 
 tr:nth-child(even) {
-    background-color: #cccccc;
-}
-
-.devider {
-    height: 200px;
-}
-
-.slim {
-    width: 30%;
-    margin: auto;
-}
-
-.medium {
-    width: 55%;
+  background-color: #cccccc;
 }
 
 /*=============Mobile Support============*/
 
 @media screen and (max-device-width: 450px) {
-    h1 {
-        font-size: 300%;
-    }
+  h1 {
+    font-size: 300%;
+  }
 
-    caption {
-        font-size: 200%;
-    }
-
-    th,
-    td {
-        font-size: 150%;
-    }
-
-    table {
-        width: 100%;
-    }
+  th,
+  td {
+    font-size: 150%;
+  }
 }
